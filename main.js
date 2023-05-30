@@ -6,6 +6,6 @@ let quotes =
     '"itlog basss itlogbass'
 ];
 btn.addEventListener('click',function(){
-    var randonQuote = quotes[Math.floor(math.random() *quotes.length)]
+    var randonQuote = quotes[Math.floor(Math.random() *quotes.length)]
     output.innerHTML = randomQuote;
 })
